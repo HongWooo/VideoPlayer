@@ -1,0 +1,201 @@
+QPushButton[whatsThis="btn_rt"]{
+    width:30px;
+    height:25px;
+    border:none;
+    background-color:rgba(0,0,0,0);
+}
+QPushButton[whatsThis="btn_rt"]:hover{
+    background-color:rgb(55, 181, 239);
+}
+
+QPushButton#btn_close:hover{
+    background-color:rgb(255, 0, 0);
+}
+
+
+QPushButton[whatsThis="btn_main"]{
+    width:100px;
+    height:40px;
+    border:none;
+    color:white;
+    margin-top:25px;
+    border-radius:5px;
+    background-color:rgba(55, 181, 239,0);
+}
+QPushButton[whatsThis="btn_main"]:hover{
+    background-color:rgb(55, 181, 239);
+}
+QPushButton[pressed = true]{
+    background-color:rgb(55, 181, 239);
+}
+QPushButton[pressed = false]{
+    background-color:rgba(55, 181, 239,0);
+}
+
+QLabel#label_video_holder{
+    background-color:rgb(29, 29, 31);
+    color:white;
+}
+
+QLabel[whatsThis="timestr"]{
+    color:white;
+}
+
+QSlider::groove:horizontal {
+        height: 6px;
+        background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgb(124, 124, 124), stop: 1.0 rgb(72, 71, 71));
+}
+QSlider::handle:horizontal {
+        width: 12px;
+        background: rgb(0, 160, 230);
+        margin: -6px 0px -6px 0px;
+        border-radius: 6px;
+}
+
+QPushButton#btn_pause{
+    width: 50px;
+    height:50px;
+    border-radius:25px;
+    background:rgba(255,255,255,0);
+    icon-size:50px;
+}
+QPushButton#btn_pause:pressed{
+    background:rgba(255,255,255,0.15);
+}
+
+QPushButton#btn_pre, QPushButton#btn_next{
+    width: 40px;
+    height:40px;
+    border-radius:20px;
+    background:rgba(255,255,255,0);
+    icon-size:40px;
+}
+QPushButton#btn_pre:pressed, QPushButton#btn_next:pressed{
+    background:rgba(255,255,255,0.15);
+}
+
+QLabel[whatsThis="channel"]{
+    background-color:rgb(29, 29, 31);
+    color:white;
+    font-size:14px;
+}
+
+QPushButton#btn_replay{
+    width: 30px;
+    height:30px;
+    border-radius:15px;
+    background:rgba(255,255,255,0);
+    icon-size:30px;
+}
+
+QPushButton#btn_open,QPushButton#btn_ok,QPushButton#btn_replay{
+    width: 40px;
+    height:35px;
+    border-radius:5px;
+    background:rgba(29, 29, 31,0.5);
+    color:white;
+    icon-size:20px;
+}
+
+QPushButton#btn_open:pressed,QPushButton#btn_replay:pressed,QPushButton#btn_ok:pressed{
+    background:rgba(55, 181, 239,1);
+}
+
+
+QComboBox#cbox_channel{
+    height:35px;
+    color:white;
+    background:rgba(29, 29, 31,0.3);
+}
+
+
+
+
+QLabel[whatsThis="time"]{
+    color:white;
+}
+
+
+
+QHeaderView
+{
+    background:transparent;
+}
+
+QHeaderView::section
+{
+    font-size:14px;
+    font-family:"Microsoft YaHei";
+    color:#FFFFFF;
+
+    background:rgb(55, 59, 68);
+    border:none;
+    text-align:ceter;
+
+    min-height:49px;
+    max-height:49px;
+
+    margin-left:0px;
+    padding-left:0px;
+}
+
+
+QTableWidget
+{
+    background:#FFFFFF;
+    border:none;
+    font-size:14px;
+    color:#666666;
+}
+
+QTableWidget::item
+{
+    border-bottom:1px solid #EEF1F7 ;
+}
+
+
+QTabWidget::pane
+{
+        border:none;
+        background:rgba(0,0,0,0);
+}
+QTabBar::tab
+{
+        width:50px;
+        height:150px;
+        color:#ffffff;
+        background:rgb(53, 57, 66);
+        border-radius:5px;
+        font-size:14px;
+}
+QTabBar::tab:hover
+{
+        background:rgba(53, 57, 66,0.5);
+        font-size:14px;
+}
+QTabBar::tab:selected
+{
+        background:rgb(71, 140, 182);
+        font-size:14px;
+        border-bottom:2px solid #618BE5;
+}
+
+QPushButton[whatsThis="btn_table"],QPushButton[whatsThis="btn_table"]::pressed
+{
+    color:white;
+    background:rgba(0,0,0,0);
+    width:120px;
+    height:30px;
+    border-radius:5px;
+    border:1px solid rgba(0,0,0,0.5);
+}
+
+QPushButton[whatsThis="btn_table"]:hover{
+    background:rgba(255,255,255,0.1);
+}
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/logo.png</file>
+        <file>qss/main.qss</file>
+        <file>images/min16.png</file>
+        <file>images/close16.png</file>
+        <file>images/max16.png</file>
+        <file>images/max_normal.png</file>
+        <file>images/min16a.png</file>
+        <file>images/min16b.png</file>
+        <file>images/max16a.png</file>
+        <file>images/begin64.png</file>
+        <file>images/pause64.png</file>
+        <file>images/next.png</file>
+        <file>images/pre.png</file>
+        <file>images/replay64.png</file>
+        <file>images/open64.png</file>
+        <file>images/del64.png</file>
+        <file>images/add64.png</file>
+        <file>images/apply.png</file>
+    </qresource>
+</RCC>
